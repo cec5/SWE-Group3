@@ -6,7 +6,7 @@ public class Player : MonoBehaviour
     private Animator anim;
     private BoxCollider2D cd;
 
-    [Header("Movement Settings")]
+    [Header("Movement Settings")] // Depending on the final character model these may need to be adjusted
     private float xInput;
     [SerializeField] private float walkSpeed = 3f;
     [SerializeField] private float runSpeed = 6f;
@@ -20,7 +20,7 @@ public class Player : MonoBehaviour
     private bool isRunning;
     private bool isCrouching;
 
-    [Header("Collision Details")]
+    [Header("Collision Details")] // Would likely need to be adjusted 
     [SerializeField] private float groundCheckDistance = 1.4f;
     [SerializeField] private float ceilingCheckDistance = 1.0f;
     [SerializeField] private LayerMask whatIsGround;
