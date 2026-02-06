@@ -4,13 +4,13 @@ public class Player : MonoBehaviour
 {
     private Rigidbody2D rb;
     private Animator anim;
-    private BoxCollider2D cd;
+    private CapsuleCollider2D cd;
 
-    [Header("Movement Settings")] // Depending on the final character model these may need to be adjusted
+    [Header("Movement Settings")]
     private float xInput;
-    [SerializeField] private float walkSpeed = 3f;
+    [SerializeField] private float walkSpeed = 4f;
     [SerializeField] private float runSpeed = 6f;
-    [SerializeField] private float crouchSpeed = 2f;
+    [SerializeField] private float crouchSpeed = 3f;
     private float currentSpeed;
 
     [SerializeField] private float jumpForce = 12f;
@@ -20,18 +20,31 @@ public class Player : MonoBehaviour
     private bool isRunning;
     private bool isCrouching;
 
-    [Header("Collision Details")] // Would likely need to be adjusted 
-    [SerializeField] private float groundCheckDistance = 1.4f;
-    [SerializeField] private float ceilingCheckDistance = 1.0f;
+    [Header("Collision Details")]
     [SerializeField] private LayerMask whatIsGround;
+
+    [Space]
+    private Vector2 groundCheckSize = new Vector2(0.7f, 0.2f);
+    [SerializeField] private float groundCheckOffset = -0.92f;
     private bool isGrounded;
+
+    [Space]
+    private Vector2 ceilingCheckSize = new Vector2(0.7f, 0.2f);
+    [SerializeField] private float ceilingCheckOffset = 0.23f;
     private bool headBlocked;
+
+    [Header("Collider Settings")]
+    private Vector2 originalColliderSize;
+    private Vector2 originalColliderOffset;
+    [SerializeField] private float crouchSizeMultiplier = 0.72f;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponentInChildren<Animator>();
-        cd = GetComponent<BoxCollider2D>();
+        cd = GetComponent<CapsuleCollider2D>();
+        originalColliderSize = cd.size;
+        originalColliderOffset = cd.offset;
     }
 
     private void Update()
@@ -41,21 +54,20 @@ public class Player : MonoBehaviour
         HandleMovement();
         HandleAnimations();
         HandleFlip();
+        AdjustCollider();
     }
 
     private void HandleInput()
     {
         xInput = Input.GetAxisRaw("Horizontal");
-
         isRunning = Input.GetKey(KeyCode.LeftShift);
+        bool crouchInput = isGrounded && (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow));
 
-        bool crouchInput = Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow);
-
-        if (crouchInput && isGrounded)
+        if (crouchInput)
         {
             isCrouching = true;
         }
-        else if (!headBlocked) // Only stop crouching if there's space above
+        else if (!headBlocked)
         {
             isCrouching = false;
         }
@@ -68,14 +80,35 @@ public class Player : MonoBehaviour
 
     private void HandleMovement()
     {
-        if (isCrouching)
-            currentSpeed = crouchSpeed;
-        else if (isRunning)
-            currentSpeed = runSpeed;
-        else
-            currentSpeed = walkSpeed;
+        if (isCrouching) currentSpeed = crouchSpeed;
+        else if (isRunning) currentSpeed = runSpeed;
+        else currentSpeed = walkSpeed;
 
         rb.linearVelocity = new Vector2(xInput * currentSpeed, rb.linearVelocity.y);
+    }
+
+    private void AdjustCollider()
+    {
+        if (isCrouching)
+        {
+            cd.size = new Vector2(originalColliderSize.x, originalColliderSize.y * crouchSizeMultiplier);
+            float offsetShift = (originalColliderSize.y - cd.size.y) / 2f;
+            cd.offset = new Vector2(originalColliderOffset.x, originalColliderOffset.y - offsetShift);
+        }
+        else
+        {
+            cd.size = originalColliderSize;
+            cd.offset = originalColliderOffset;
+        }
+    }
+
+    private void HandleCollision()
+    {
+        Vector2 groundCheckPos = (Vector2)transform.position + Vector2.up * groundCheckOffset;
+        isGrounded = Physics2D.OverlapBox(groundCheckPos, groundCheckSize, 0, whatIsGround);
+
+        Vector2 ceilingCheckPos = (Vector2)transform.position + Vector2.up * ceilingCheckOffset;
+        headBlocked = Physics2D.OverlapBox(ceilingCheckPos, ceilingCheckSize, 0, whatIsGround);
     }
 
     private void HandleAnimations()
@@ -94,12 +127,6 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void HandleCollision()
-    {
-        isGrounded = Physics2D.Raycast(transform.position, Vector2.down, groundCheckDistance, whatIsGround);
-        headBlocked = Physics2D.Raycast(transform.position, Vector2.up, ceilingCheckDistance, whatIsGround);
-    }
-
     private void HandleFlip()
     {
         if (rb.linearVelocity.x > 0.1f && !facingRight) Flip();
@@ -115,9 +142,11 @@ public class Player : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
-        // Ground Check Ray
-        Gizmos.DrawLine(transform.position, transform.position + Vector3.down * groundCheckDistance);
-        // Ceiling Check Ray
-        Gizmos.DrawLine(transform.position, transform.position + Vector3.up * ceilingCheckDistance);
+
+        Vector2 groundCheckPos = (Vector2)transform.position + Vector2.up * groundCheckOffset;
+        Gizmos.DrawWireCube(groundCheckPos, groundCheckSize);
+
+        Vector2 ceilingCheckPos = (Vector2)transform.position + Vector2.up * ceilingCheckOffset;
+        Gizmos.DrawWireCube(ceilingCheckPos, ceilingCheckSize);
     }
 }
