@@ -1022,9 +1022,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 783a15fb98d57bc47ad54cd52ee8c083, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 8
+  walkSpeed: 4
+  runSpeed: 6
+  crouchSpeed: 2
   jumpForce: 12
   groundCheckDistance: 1.05
+  ceilingCheckDistance: 0.5
   whatIsGround:
     serializedVersion: 2
     m_Bits: 64
