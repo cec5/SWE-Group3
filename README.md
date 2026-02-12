@@ -1,17 +1,33 @@
-# SWE-Group3
+# Software Engineering Management Group 3 Project
+# Overview
+This is a 2D platformer which tasks the player with escaping from rising lava by making increasingly challenging jumps from platform to platform. As the player progresses, levels introduce escalating difficulty through hazards such as spikes and faster moving platforms, requiring greater precision, timing, and control.
 
-## Pre-commit Hooks
+# Gameplay Features
+- Rising Lava
+- Precise jumping and moving between platforms
+- Moving, Temporary and Spiked platforms
+- Difficulty increase with progression
+- Manual Difficulty override
 
-This project uses [pre-commit](https://pre-commit.com/) to enforce code and file hygiene before committing. To set it up locally:
+ # Controls
+ | Action  | Key  | 
+| ------ | ----- | 
+| Move Left | A / ← |
+| Move Right | D / → |
+| Crouch | S / ↓ |
+| Jump | W / Space / ↑ |
 
-Check you have Python/Pip installed:
+# Installation / Setup
+## Run from Unity Editor
+1. Clone the repository
 ```bash
-python3 --version
-pip --version
+git clone https://github.com/cec5/SWE-Group3.git
 ```
-Now navigate to the repository root and run:
-```bash
-pip install pre-commit
-pre-commit install
-pre-commit run --all-files
-```
+2. Open the project in Unity
+3. Load the main scene
+4. Press Play
+
+
+## Built With
+- Unity 6.000.0.66f2 (LTS)
+- C#
