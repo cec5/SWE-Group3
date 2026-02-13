@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: bacad2957696f7047a8d81c5860ebd4e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7248306826861316225
+    second: Plain_Water_0
+  - first:
+      213: 6241282114197047879
+    second: Plain_Water_1
+  - first:
+      213: -2738607886672290935
+    second: Plain_Water_2
+  - first:
+      213: -3734535603786384900
+    second: Plain_Water_3
+  - first:
+      213: -8157362067883802900
+    second: Plain_Water_4
+  - first:
+      213: 2944859265664855225
+    second: Plain_Water_5
+  - first:
+      213: 3149751350702595454
+    second: Plain_Water_6
+  - first:
+      213: -7454472993839553077
+    second: Plain_Water_7
+  - first:
+      213: 7575843962439360572
+    second: Plain_Water_8
+  - first:
+      213: -8054044343528137743
+    second: Plain_Water_9
+  - first:
+      213: 5943035487946188512
+    second: Plain_Water_10
+  - first:
+      213: 3130943598817253892
+    second: Plain_Water_11
+  - first:
+      213: -3499626545529312672
+    second: Plain_Water_12
+  - first:
+      213: 4027310668160204151
+    second: Plain_Water_13
+  - first:
+      213: -7008788428703833330
+    second: Plain_Water_14
+  - first:
+      213: -5577057933005477906
+    second: Plain_Water_15
+  - first:
+      213: 6623843335897746844
+    second: Plain_Water_16
+  - first:
+      213: 4589112076684438698
+    second: Plain_Water_17
+  - first:
+      213: 5757094636947438013
+    second: Plain_Water_18
+  - first:
+      213: -9000717801114552956
+    second: Plain_Water_19
+  - first:
+      213: 6521219134511015577
+    second: Plain_Water_20
+  - first:
+      213: -7867638880840004468
+    second: Plain_Water_21
+  - first:
+      213: 5783730376135292139
+    second: Plain_Water_22
+  - first:
+      213: 3013002636559999514
+    second: Plain_Water_23
+  - first:
+      213: -3154873769925605820
+    second: Plain_Water_24
+  - first:
+      213: 5539362260626053419
+    second: Plain_Water_25
+  - first:
+      213: 4707396280118384659
+    second: Plain_Water_26
+  - first:
+      213: 4112185263130210418
+    second: Plain_Water_27
+  - first:
+      213: -8153580243150928635
+    second: Plain_Water_28
+  - first:
+      213: -4165958019381651016
+    second: Plain_Water_29
+  - first:
+      213: 2458634486988947397
+    second: Plain_Water_30
+  - first:
+      213: -3340283352086750324
+    second: Plain_Water_31
+  - first:
+      213: -7471667135634176808
+    second: Plain_Water_32
+  - first:
+      213: 2534208511280552635
+    second: Plain_Water_33
+  - first:
+      213: -2219068730282591774
+    second: Plain_Water_34
+  - first:
+      213: -2082538635605256489
+    second: Plain_Water_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Plain_Water_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1888b16e7a8279460800000000000000
+      internalID: 7248306826861316225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plain_Water_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 27
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ac6bfd30d7d9650800000000000000
+      internalID: 6241282114197047879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plain_Water_2
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 36
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b90d703a28ef9d0800000000000000
+      internalID: -2738607886672290935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plain_Water_3
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 27
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf9734f97a34c2cc0800000000000000
+      internalID: -3734535603786384900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plain_Water_4
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 36
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee3a873b6a3bce80800000000000000
+      internalID: -8157362067883802900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plain_Water_5
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 27
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bca87b46ed3ed820800000000000000
+      internalID: 2944859265664855225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plain_Water_6
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 36
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d5f655a2a26bb20800000000000000
+      internalID: 3149751350702595454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plain_Water_7
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 27
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5637ebe446c8890800000000000000
+      internalID: -7454472993839553077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plain_Water_8
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 36
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c306cfef1fdc22960800000000000000
+      internalID: 7575843962439360572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plain_Water_9
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 27
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fbd2ca77594a3090800000000000000
+      internalID: -8054044343528137743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plain_Water_10
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 36
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e6a29ae947e97250800000000000000
+      internalID: 5943035487946188512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plain_Water_11
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 27
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40a194b5d98537b20800000000000000
+      internalID: 3130943598817253892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plain_Water_12
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 36
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06aa23bd234de6fc0800000000000000
+      internalID: -3499626545529312672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plain_Water_13
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 27
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d74df07b1e3e730800000000000000
+      internalID: 4027310668160204151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plain_Water_14
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 36
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e036d39ee08cbbe90800000000000000
+      internalID: -7008788428703833330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plain_Water_15
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 27
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee72f63cb5f4a92b0800000000000000
+      internalID: -5577057933005477906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plain_Water_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d060c5b6e9ceb50800000000000000
+      internalID: 6623843335897746844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plain_Water_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac2b3d9e1dcfaf30800000000000000
+      internalID: 4589112076684438698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plain_Water_18
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 18
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db9fe85e11f45ef40800000000000000
+      internalID: 5757094636947438013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plain_Water_19
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 9
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485380509d6071380800000000000000
+      internalID: -9000717801114552956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plain_Water_20
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 18
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996620f7046008a50800000000000000
+      internalID: 6521219134511015577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plain_Water_21
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 9
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8cca765f1880d290800000000000000
+      internalID: -7867638880840004468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plain_Water_22
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 18
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be43e223220f34050800000000000000
+      internalID: 5783730376135292139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plain_Water_23
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 9
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1269733fe550d920800000000000000
+      internalID: 3013002636559999514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plain_Water_24
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 18
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44603608503a734d0800000000000000
+      internalID: -3154873769925605820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plain_Water_25
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 9
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2912d290a4cfdc40800000000000000
+      internalID: 5539362260626053419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plain_Water_26
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 18
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3189375d9f7045140800000000000000
+      internalID: 4707396280118384659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plain_Water_27
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 9
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270f873a5ba611930800000000000000
+      internalID: 4112185263130210418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plain_Water_28
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 18
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5058857e7f9a8de80800000000000000
+      internalID: -8153580243150928635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plain_Water_29
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 9
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b91199e04b8f26c0800000000000000
+      internalID: -4165958019381651016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plain_Water_30
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 18
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cf308d1a03de1220800000000000000
+      internalID: 2458634486988947397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plain_Water_31
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 9
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8bd7b52dfde4a1d0800000000000000
+      internalID: -3340283352086750324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plain_Water_32
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d48094a35e4f4890800000000000000
+      internalID: -7471667135634176808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plain_Water_33
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 0
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba16a5d6315b2320800000000000000
+      internalID: 2534208511280552635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plain_Water_34
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e934573fb84431e0800000000000000
+      internalID: -2219068730282591774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plain_Water_35
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d6d8b905265913e0800000000000000
+      internalID: -2082538635605256489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Plain_Water_0: 7248306826861316225
+      Plain_Water_1: 6241282114197047879
+      Plain_Water_10: 5943035487946188512
+      Plain_Water_11: 3130943598817253892
+      Plain_Water_12: -3499626545529312672
+      Plain_Water_13: 4027310668160204151
+      Plain_Water_14: -7008788428703833330
+      Plain_Water_15: -5577057933005477906
+      Plain_Water_16: 6623843335897746844
+      Plain_Water_17: 4589112076684438698
+      Plain_Water_18: 5757094636947438013
+      Plain_Water_19: -9000717801114552956
+      Plain_Water_2: -2738607886672290935
+      Plain_Water_20: 6521219134511015577
+      Plain_Water_21: -7867638880840004468
+      Plain_Water_22: 5783730376135292139
+      Plain_Water_23: 3013002636559999514
+      Plain_Water_24: -3154873769925605820
+      Plain_Water_25: 5539362260626053419
+      Plain_Water_26: 4707396280118384659
+      Plain_Water_27: 4112185263130210418
+      Plain_Water_28: -8153580243150928635
+      Plain_Water_29: -4165958019381651016
+      Plain_Water_3: -3734535603786384900
+      Plain_Water_30: 2458634486988947397
+      Plain_Water_31: -3340283352086750324
+      Plain_Water_32: -7471667135634176808
+      Plain_Water_33: 2534208511280552635
+      Plain_Water_34: -2219068730282591774
+      Plain_Water_35: -2082538635605256489
+      Plain_Water_4: -8157362067883802900
+      Plain_Water_5: 2944859265664855225
+      Plain_Water_6: 3149751350702595454
+      Plain_Water_7: -7454472993839553077
+      Plain_Water_8: 7575843962439360572
+      Plain_Water_9: -8054044343528137743
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
