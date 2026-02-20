@@ -60,6 +60,12 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
+        if (PauseControl.IsPaused)
+        {
+            return;
+        }
+
+        
         HandleCollision();
         HandleInput();
         HandleMovement();
