@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System;
+using TMPro;
 
 public class Player : MonoBehaviour
 {
@@ -41,6 +42,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float crouchSizeMultiplier = 0.72f;
 
     [Header("Lives & Respawn")]
+    [SerializeField] private TextMeshProUGUI PlayerLivesText;
     [SerializeField] private int maxLives = 3;
     private int currentLives;
     private Vector2 currentRespawnPosition;
@@ -56,6 +58,7 @@ public class Player : MonoBehaviour
 
         currentLives = maxLives;
         currentRespawnPosition = transform.position;
+        UpdateLivesUI();
     }
 
     private void Update()
@@ -185,6 +188,7 @@ public class Player : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
+        UpdateLivesUI();
     }
 
     private void Respawn()
@@ -197,4 +201,9 @@ public class Player : MonoBehaviour
     {
         currentRespawnPosition = newSpawnPosition;
     }
+
+    void UpdateLivesUI()
+{
+    PlayerLivesText.text = "Lives: " + currentLives;
+}
 }
