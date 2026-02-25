@@ -24,8 +24,6 @@ public class PauseControl : MonoBehaviour
         Time.timeScale = 0f;
         if (pauseMenu) pauseMenu.SetActive(true);
 
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
     }
 
     public void Resume()
@@ -34,8 +32,6 @@ public class PauseControl : MonoBehaviour
         Time.timeScale = 1f;
         if (pauseMenu) pauseMenu.SetActive(false);
 
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
     }
 
     void OnDisable()
