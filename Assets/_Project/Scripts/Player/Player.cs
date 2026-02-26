@@ -1,4 +1,7 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using System;
+using TMPro;
 
 public class Player : MonoBehaviour
 {
@@ -38,6 +41,13 @@ public class Player : MonoBehaviour
     private Vector2 originalColliderOffset;
     [SerializeField] private float crouchSizeMultiplier = 0.72f;
 
+    [Header("Lives & Respawn")]
+    [SerializeField] private TextMeshProUGUI PlayerLivesText;
+    [SerializeField] private int maxLives = 3;
+    private int currentLives;
+    private Vector2 currentRespawnPosition;
+    public static event Action OnPlayerRespawn; // Not needed now, but can be used in the future to reset lava or other variables on respawn
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -45,10 +55,20 @@ public class Player : MonoBehaviour
         cd = GetComponent<CapsuleCollider2D>();
         originalColliderSize = cd.size;
         originalColliderOffset = cd.offset;
+
+        currentLives = maxLives;
+        currentRespawnPosition = transform.position;
+        UpdateLivesUI();
     }
 
     private void Update()
     {
+        if (PauseControl.IsPaused)
+        {
+            return;
+        }
+
+        
         HandleCollision();
         HandleInput();
         HandleMovement();
@@ -111,6 +131,17 @@ public class Player : MonoBehaviour
         headBlocked = Physics2D.OverlapBox(ceilingCheckPos, ceilingCheckSize, 0, whatIsGround);
     }
 
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+
+        Vector2 groundCheckPos = (Vector2)transform.position + Vector2.up * groundCheckOffset;
+        Gizmos.DrawWireCube(groundCheckPos, groundCheckSize);
+
+        Vector2 ceilingCheckPos = (Vector2)transform.position + Vector2.up * ceilingCheckOffset;
+        Gizmos.DrawWireCube(ceilingCheckPos, ceilingCheckSize);
+    }
+
     private void HandleAnimations()
     {
         anim.SetFloat("xVelocity", rb.linearVelocity.x);
@@ -139,14 +170,40 @@ public class Player : MonoBehaviour
         facingRight = !facingRight;
     }
 
-    private void OnDrawGizmos()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        Gizmos.color = Color.red;
-
-        Vector2 groundCheckPos = (Vector2)transform.position + Vector2.up * groundCheckOffset;
-        Gizmos.DrawWireCube(groundCheckPos, groundCheckSize);
-
-        Vector2 ceilingCheckPos = (Vector2)transform.position + Vector2.up * ceilingCheckOffset;
-        Gizmos.DrawWireCube(ceilingCheckPos, ceilingCheckSize);
+        if (collision.CompareTag("Hazard")) // This was a lot easier than expected, just tag the appropriate objects
+        {
+            LoseLife();
+        }
     }
+    private void LoseLife()
+    {
+        currentLives--;
+        if (currentLives > 0)
+        {
+            Respawn();
+        }
+        else // Resets the scene entirely if all lives are lost
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+        UpdateLivesUI();
+    }
+
+    private void Respawn()
+    {
+        transform.position = currentRespawnPosition;
+        OnPlayerRespawn?.Invoke(); // For future use, see (declaration) explaination above
+    }
+
+    public void UpdateCheckpoint (Vector2 newSpawnPosition) // Public method for future checkpoint script
+    {
+        currentRespawnPosition = newSpawnPosition;
+    }
+
+    void UpdateLivesUI()
+{
+    PlayerLivesText.text = "Lives: " + currentLives;
+}
 }

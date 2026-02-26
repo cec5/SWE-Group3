@@ -1,0 +1,1755 @@
+fileFormatVersion: 2
+guid: 48f4fb193bdf17744a6668ed45653ba1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5379806611057567438
+    second: PlainsModified_0
+  - first:
+      213: 8282095684624406271
+    second: PlainsModified_1
+  - first:
+      213: -5237206180365119075
+    second: PlainsModified_2
+  - first:
+      213: 5300505081803142991
+    second: PlainsModified_3
+  - first:
+      213: -5775906977943919636
+    second: PlainsModified_4
+  - first:
+      213: -1508436541587127127
+    second: PlainsModified_5
+  - first:
+      213: 5278157867725315211
+    second: PlainsModified_6
+  - first:
+      213: 120956084601630328
+    second: PlainsModified_7
+  - first:
+      213: 7014682727881630239
+    second: PlainsModified_8
+  - first:
+      213: -5696946644392606190
+    second: PlainsModified_9
+  - first:
+      213: -2788912114604215981
+    second: PlainsModified_10
+  - first:
+      213: -6740215301652437550
+    second: PlainsModified_11
+  - first:
+      213: 1905282578396916835
+    second: PlainsModified_12
+  - first:
+      213: 6188428994355023918
+    second: PlainsModified_13
+  - first:
+      213: 6040733332787092671
+    second: PlainsModified_14
+  - first:
+      213: -1210858201791744847
+    second: PlainsModified_15
+  - first:
+      213: 1476456853181082835
+    second: PlainsModified_16
+  - first:
+      213: 6151360122983485328
+    second: PlainsModified_17
+  - first:
+      213: 3560712134110145261
+    second: PlainsModified_18
+  - first:
+      213: -6280682013244686756
+    second: PlainsModified_19
+  - first:
+      213: 5338512882364962972
+    second: PlainsModified_20
+  - first:
+      213: -378566869921247795
+    second: PlainsModified_21
+  - first:
+      213: 7768729232453387547
+    second: PlainsModified_22
+  - first:
+      213: 2225759425827194849
+    second: PlainsModified_23
+  - first:
+      213: -1753682061043238639
+    second: PlainsModified_24
+  - first:
+      213: 4636885754018712484
+    second: PlainsModified_25
+  - first:
+      213: 702830583602889478
+    second: PlainsModified_26
+  - first:
+      213: -6879789705009284004
+    second: PlainsModified_27
+  - first:
+      213: -8695947330517252854
+    second: PlainsModified_28
+  - first:
+      213: 8256236009170506578
+    second: PlainsModified_29
+  - first:
+      213: -2286857464102385285
+    second: PlainsModified_30
+  - first:
+      213: -8916260149920580964
+    second: PlainsModified_31
+  - first:
+      213: -6501712862026582939
+    second: PlainsModified_32
+  - first:
+      213: -4628287694287143456
+    second: PlainsModified_33
+  - first:
+      213: 7390875728366071623
+    second: PlainsModified_34
+  - first:
+      213: -8699468957114442604
+    second: PlainsModified_35
+  - first:
+      213: 3431840312054051050
+    second: PlainsModified_36
+  - first:
+      213: -4416923669828535893
+    second: PlainsModified_37
+  - first:
+      213: -5812712434511552268
+    second: PlainsModified_38
+  - first:
+      213: 6172559733575129204
+    second: PlainsModified_39
+  - first:
+      213: -1379923881315135748
+    second: PlainsModified_40
+  - first:
+      213: -468029478165595419
+    second: PlainsModified_41
+  - first:
+      213: -4001064598601855641
+    second: PlainsModified_42
+  - first:
+      213: -3555964719761147930
+    second: PlainsModified_43
+  - first:
+      213: -6831408119687189288
+    second: PlainsModified_44
+  - first:
+      213: 3219749132416245528
+    second: PlainsModified_45
+  - first:
+      213: -3973612238263785641
+    second: PlainsModified_46
+  - first:
+      213: 569993728095219469
+    second: PlainsModified_47
+  - first:
+      213: 323550761888501239
+    second: PlainsModified_48
+  - first:
+      213: 2135077994333928932
+    second: PlainsModified_49
+  - first:
+      213: 8687191362996700370
+    second: PlainsModified_50
+  - first:
+      213: -2536796648251626936
+    second: PlainsModified_51
+  - first:
+      213: -2909432240925864960
+    second: PlainsModified_52
+  - first:
+      213: 302778041556597923
+    second: PlainsModified_53
+  - first:
+      213: 8948320988173177456
+    second: PlainsModified_54
+  - first:
+      213: -2393510589361522990
+    second: PlainsModified_55
+  - first:
+      213: -775579766839680779
+    second: PlainsModified_56
+  - first:
+      213: -1695765635224507734
+    second: PlainsModified_57
+  - first:
+      213: -2998535474444356244
+    second: PlainsModified_58
+  - first:
+      213: -2690207333085681809
+    second: PlainsModified_59
+  - first:
+      213: -6217049217793198212
+    second: PlainsModified_60
+  - first:
+      213: 8579685949195748074
+    second: PlainsModified_61
+  - first:
+      213: 6540984388103309451
+    second: PlainsModified_62
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlainsModified_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2399d9304661755b0800000000000000
+      internalID: -5379806611057567438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_1
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 57
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff655dd052aefe270800000000000000
+      internalID: 8282095684624406271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 57
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d915bd31ab4b157b0800000000000000
+      internalID: -5237206180365119075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_3
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 54
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f477703e94d2f8940800000000000000
+      internalID: 5300505081803142991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_4
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 54
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce3e3f3a43bd7dfa0800000000000000
+      internalID: -5775906977943919636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_5
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 54
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a40b7c15f4f01be0800000000000000
+      internalID: -1508436541587127127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_6
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 54
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c5336ad98cf3940800000000000000
+      internalID: 5278157867725315211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_7
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 54
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e2a180be8bda100800000000000000
+      internalID: 120956084601630328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_8
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 45
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f12e37f86c8295160800000000000000
+      internalID: 7014682727881630239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_9
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 46
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21600ace53160f0b0800000000000000
+      internalID: -5696946644392606190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_10
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 47
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3517b33453bcb49d0800000000000000
+      internalID: -2788912114604215981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_11
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 48
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d5aa53f4e1f572a0800000000000000
+      internalID: -6740215301652437550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_12
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 52
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ca612196ce07a10800000000000000
+      internalID: 1905282578396916835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_13
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 38
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e205246f167b1e550800000000000000
+      internalID: 6188428994355023918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_14
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 38
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbcd2a306fef4d350800000000000000
+      internalID: 6040733332787092671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 49
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b4b5d081ea223fe0800000000000000
+      internalID: -1210858201791744847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_16
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 48
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dcac047fad6d7410800000000000000
+      internalID: 1476456853181082835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_17
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 48
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f0fe7c0750e5550800000000000000
+      internalID: 6151360122983485328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_18
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 45
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deaee0d02d03a6130800000000000000
+      internalID: 3560712134110145261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_19
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 45
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e7d554cf886d8a0800000000000000
+      internalID: -6280682013244686756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_20
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 45
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c98d53e8e25361a40800000000000000
+      internalID: 5338512882364962972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_21
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 30
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcdcc92007f0fbaf0800000000000000
+      internalID: -378566869921247795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_22
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 30
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b15c390931210db60800000000000000
+      internalID: 7768729232453387547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_23
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 27
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e748ebb76c73ee10800000000000000
+      internalID: 2225759425827194849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_24
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 27
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 119fa86f47ba9a7e0800000000000000
+      internalID: -1753682061043238639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_25
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 36
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4abca58a607895040800000000000000
+      internalID: 4636885754018712484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_26
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 27
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6034ee821b4f0c900800000000000000
+      internalID: 702830583602889478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_27
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 36
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c3887c6b31680a0800000000000000
+      internalID: -6879789705009284004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_28
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 27
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a05430bd9f9c15780800000000000000
+      internalID: -8695947330517252854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_29
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 29
+        width: 34
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 253956c28ea049270800000000000000
+      internalID: 8256236009170506578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_30
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 33
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b790a30b0437340e0800000000000000
+      internalID: -2286857464102385285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_31
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 29
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a330f42a4134480800000000000000
+      internalID: -8916260149920580964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_32
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 29
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564315b799645c5a0800000000000000
+      internalID: -6501712862026582939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_33
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 29
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0edf3bf1dd405cfb0800000000000000
+      internalID: -4628287694287143456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_34
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 29
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74fe050015aa19660800000000000000
+      internalID: 7390875728366071623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_35
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 15
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49cd7a44317454780800000000000000
+      internalID: -8699468957114442604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_36
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 14
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae0f8d5c49850af20800000000000000
+      internalID: 3431840312054051050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_37
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 20
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba9fadbf25fe3b2c0800000000000000
+      internalID: -4416923669828535893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_38
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 13
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f0617f76d8155fa0800000000000000
+      internalID: -5812712434511552268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_39
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 13
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47810a2cf5659a550800000000000000
+      internalID: 6172559733575129204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_40
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 18
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe02258a8689dce0800000000000000
+      internalID: -1379923881315135748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_41
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 9
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea37895ba93189f0800000000000000
+      internalID: -468029478165595419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_42
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 9
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d02f432fc5978c0800000000000000
+      internalID: -4001064598601855641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_43
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 18
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7b0dc7deca6aec0800000000000000
+      internalID: -3555964719761147930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_44
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 18
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dc635e6286f131a0800000000000000
+      internalID: -6831408119687189288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_45
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 9
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81fda87e6c8deac20800000000000000
+      internalID: 3219749132416245528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_46
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 18
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757642fe8b4ead8c0800000000000000
+      internalID: -3973612238263785641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_47
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 9
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0fe057964609e700800000000000000
+      internalID: 569993728095219469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_48
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 9
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fdcb2524bb7d7400800000000000000
+      internalID: 323550761888501239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_49
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 9
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4edf60caf1251ad10800000000000000
+      internalID: 2135077994333928932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_50
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 18
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d48247948a1f8870800000000000000
+      internalID: 8687191362996700370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_51
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 9
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84a6f8193ec7bccd0800000000000000
+      internalID: -2536796648251626936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_52
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 18
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c8b8daace9f97d0800000000000000
+      internalID: -2909432240925864960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_53
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 12
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3acf4cc460fa33400800000000000000
+      internalID: 302778041556597923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0721c3c4782de2c70800000000000000
+      internalID: 8948320988173177456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_55
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d678f2ecca88ced0800000000000000
+      internalID: -2393510589361522990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_56
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 0
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f06a8eaf469c35f0800000000000000
+      internalID: -775579766839680779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_57
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 0
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaae02aa32e6778e0800000000000000
+      internalID: -1695765635224507734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_58
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6536577fdf0366d0800000000000000
+      internalID: -2998535474444356244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_59
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f67e6431fa67aaad0800000000000000
+      internalID: -2690207333085681809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_60
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77f05efcaa98b9a0800000000000000
+      internalID: -6217049217793198212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_61
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae20936e9ea211770800000000000000
+      internalID: 8579685949195748074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlainsModified_62
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88064635ae36ca50800000000000000
+      internalID: 6540984388103309451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PlainsModified_0: -5379806611057567438
+      PlainsModified_1: 8282095684624406271
+      PlainsModified_10: -2788912114604215981
+      PlainsModified_11: -6740215301652437550
+      PlainsModified_12: 1905282578396916835
+      PlainsModified_13: 6188428994355023918
+      PlainsModified_14: 6040733332787092671
+      PlainsModified_15: -1210858201791744847
+      PlainsModified_16: 1476456853181082835
+      PlainsModified_17: 6151360122983485328
+      PlainsModified_18: 3560712134110145261
+      PlainsModified_19: -6280682013244686756
+      PlainsModified_2: -5237206180365119075
+      PlainsModified_20: 5338512882364962972
+      PlainsModified_21: -378566869921247795
+      PlainsModified_22: 7768729232453387547
+      PlainsModified_23: 2225759425827194849
+      PlainsModified_24: -1753682061043238639
+      PlainsModified_25: 4636885754018712484
+      PlainsModified_26: 702830583602889478
+      PlainsModified_27: -6879789705009284004
+      PlainsModified_28: -8695947330517252854
+      PlainsModified_29: 8256236009170506578
+      PlainsModified_3: 5300505081803142991
+      PlainsModified_30: -2286857464102385285
+      PlainsModified_31: -8916260149920580964
+      PlainsModified_32: -6501712862026582939
+      PlainsModified_33: -4628287694287143456
+      PlainsModified_34: 7390875728366071623
+      PlainsModified_35: -8699468957114442604
+      PlainsModified_36: 3431840312054051050
+      PlainsModified_37: -4416923669828535893
+      PlainsModified_38: -5812712434511552268
+      PlainsModified_39: 6172559733575129204
+      PlainsModified_4: -5775906977943919636
+      PlainsModified_40: -1379923881315135748
+      PlainsModified_41: -468029478165595419
+      PlainsModified_42: -4001064598601855641
+      PlainsModified_43: -3555964719761147930
+      PlainsModified_44: -6831408119687189288
+      PlainsModified_45: 3219749132416245528
+      PlainsModified_46: -3973612238263785641
+      PlainsModified_47: 569993728095219469
+      PlainsModified_48: 323550761888501239
+      PlainsModified_49: 2135077994333928932
+      PlainsModified_5: -1508436541587127127
+      PlainsModified_50: 8687191362996700370
+      PlainsModified_51: -2536796648251626936
+      PlainsModified_52: -2909432240925864960
+      PlainsModified_53: 302778041556597923
+      PlainsModified_54: 8948320988173177456
+      PlainsModified_55: -2393510589361522990
+      PlainsModified_56: -775579766839680779
+      PlainsModified_57: -1695765635224507734
+      PlainsModified_58: -2998535474444356244
+      PlainsModified_59: -2690207333085681809
+      PlainsModified_6: 5278157867725315211
+      PlainsModified_60: -6217049217793198212
+      PlainsModified_61: 8579685949195748074
+      PlainsModified_62: 6540984388103309451
+      PlainsModified_7: 120956084601630328
+      PlainsModified_8: 7014682727881630239
+      PlainsModified_9: -5696946644392606190
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
