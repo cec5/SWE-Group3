@@ -45,14 +45,17 @@ TagManager:
   - name: Background
     uniqueID: 1479671445
     locked: 0
-  - name: Lava
-    uniqueID: 2177935939
-    locked: 0
   - name: Terrian
     uniqueID: 1323008273
     locked: 0
   - name: Player
     uniqueID: 534638279
+    locked: 0
+  - name: Lava
+    uniqueID: 2177935939
+    locked: 0
+  - name: LavaRocks
+    uniqueID: 3955341109
     locked: 0
   - name: Foreground
     uniqueID: 2648816733

@@ -16,6 +16,8 @@ public class Player : MonoBehaviour
     [SerializeField] private float crouchSpeed = 3f;
     private float currentSpeed;
 
+    [SerializeField] public int extraJumpsValue = 1;
+    private int extraJumps;
     [SerializeField] private float jumpForce = 12f;
     private bool facingRight = true;
 
@@ -55,6 +57,7 @@ public class Player : MonoBehaviour
         cd = GetComponent<CapsuleCollider2D>();
         originalColliderSize = cd.size;
         originalColliderOffset = cd.offset;
+        extraJumps = extraJumpsValue;
 
         currentLives = maxLives;
         currentRespawnPosition = transform.position;
@@ -154,7 +157,12 @@ public class Player : MonoBehaviour
     {
         if (isGrounded)
         {
+            extraJumps = extraJumpsValue;
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+        } else if (extraJumps > 0)
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            extraJumps--;
         }
     }
 
