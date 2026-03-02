@@ -194,7 +194,8 @@ public class Player : MonoBehaviour
         }
         else // Resets the scene entirely if all lives are lost
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            // Death/ restart menu
+            SceneManager.LoadScene(3);
         }
         UpdateLivesUI();
     }
@@ -211,7 +212,7 @@ public class Player : MonoBehaviour
     }
 
     void UpdateLivesUI()
-{
-    PlayerLivesText.text = "Lives: " + currentLives;
-}
+    {
+        PlayerLivesText.text = "Lives: " + currentLives;
+    }
 }
