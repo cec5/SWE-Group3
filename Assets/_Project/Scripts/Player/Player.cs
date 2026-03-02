@@ -213,6 +213,6 @@ public class Player : MonoBehaviour
 
     void UpdateLivesUI()
     {
-        PlayerLivesText.text = "Lives: " + currentLives;
+        PlayerLivesText.text = currentLives.ToString();
     }
 }
