@@ -8,10 +8,15 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+    public void restartGame()
+    {
+        SceneManager.LoadScene(1);
 
+    }
     public void quitGame()
     {
         Application.Quit();
+        
     }
 
 }
