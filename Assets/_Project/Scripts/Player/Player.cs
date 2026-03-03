@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
     private CapsuleCollider2D cd;
 
     [Header("Movement Settings")]
-    private float xInput;
+    public float xInput;
     [SerializeField] private float walkSpeed = 4f;
     [SerializeField] private float runSpeed = 6f;
     [SerializeField] private float crouchSpeed = 3f;
@@ -31,7 +31,7 @@ public class Player : MonoBehaviour
     [Space]
     private Vector2 groundCheckSize = new Vector2(0.7f, 0.2f);
     [SerializeField] private float groundCheckOffset = -0.92f;
-    private bool isGrounded;
+    public bool isGrounded;
 
     [Space]
     private Vector2 ceilingCheckSize = new Vector2(0.7f, 0.2f);
@@ -195,7 +195,7 @@ public class Player : MonoBehaviour
         else // Resets the scene entirely if all lives are lost
         {
             // Death/ restart menu
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(1);
         }
         UpdateLivesUI();
     }
