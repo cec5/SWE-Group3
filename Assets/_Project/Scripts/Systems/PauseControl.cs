@@ -33,11 +33,7 @@ public class PauseControl : MonoBehaviour
         if (pauseMenu) pauseMenu.SetActive(false);
 
     }
-    public void quitGame()
-    {
-        Application.Quit();
-        
-    }
+
     void OnDisable()
     {
         Time.timeScale = 1f;
