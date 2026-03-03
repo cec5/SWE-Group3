@@ -6,11 +6,11 @@ public class Menu : MonoBehaviour
 
     public void playGame()
     {
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(2);
     }
     public void restartGame()
     {
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(2);
 
     }
     public void quitGame()
