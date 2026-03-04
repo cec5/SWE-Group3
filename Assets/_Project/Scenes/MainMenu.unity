@@ -2672,7 +2672,7 @@ GameObject:
   - component: {fileID: 1879661137}
   - component: {fileID: 1879661136}
   m_Layer: 5
-  m_Name: backgroud (1)
+  m_Name: Backgroud
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2841,11 +2841,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1879661135}
   - {fileID: 1202704852}
   - {fileID: 1514719334}
   - {fileID: 360950304}
   - {fileID: 2048363354}
-  - {fileID: 1879661135}
   m_Father: {fileID: 1069112607}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
