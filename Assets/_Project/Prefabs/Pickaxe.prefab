@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4881171265807591118}
   - component: {fileID: 6467329044036581075}
   - component: {fileID: 2554436542162539638}
+  - component: {fileID: 254102400489201906}
   m_Layer: 0
   m_Name: Pickaxe
   m_TagString: Untagged
@@ -151,3 +152,15 @@ MonoBehaviour:
   message: An old-fashioned manual mining tool. This one looks ancient, and could
     be a great addition to a museum. It would be good to take this with you to have
     it studied further.
+--- !u!114 &254102400489201906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6024036709194763197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbc92a73a1be6eea39756e7feba60233, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

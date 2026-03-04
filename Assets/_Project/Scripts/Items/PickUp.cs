@@ -2,16 +2,11 @@ using UnityEngine;
 
 public class PickUp : MonoBehaviour
 {
-    public GameObject item;
-
-    private bool collectInput;
-
-    private void Update()
-    {
-        collectInput = Input.GetKeyUp(KeyCode.E);
-        if (collectInput)
-        {
-            item.SetActive(false);
+    private void OnTriggerExit2D(Collider2D collision)
+    { 
+        if (collision.gameObject.tag == "Player")
+        {            
+            Destroy(gameObject);
         }
     }
 }

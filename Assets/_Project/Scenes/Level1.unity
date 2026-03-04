@@ -10828,7 +10828,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -18.3, y: -21.299988}
+  m_AnchoredPosition: {x: -18.300049, y: -21.300049}
   m_SizeDelta: {x: 500, y: 300}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &2117707906
@@ -11021,7 +11021,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2816040118718002635, guid: 2d97dd329482a76d8b648ec93547edfd, type: 3}
       propertyPath: m_TagString
-      value: Bag
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 6396596279905680702, guid: 2d97dd329482a76d8b648ec93547edfd, type: 3}
       propertyPath: item
@@ -11029,6 +11029,7 @@ PrefabInstance:
       objectReference: {fileID: 7862758482390771441}
     m_RemovedComponents:
     - {fileID: 3911470207989554216, guid: 2d97dd329482a76d8b648ec93547edfd, type: 3}
+    - {fileID: 6396596279905680702, guid: 2d97dd329482a76d8b648ec93547edfd, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -11265,7 +11266,8 @@ PrefabInstance:
       propertyPath: item
       value: 
       objectReference: {fileID: 623605571}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6152957327938828558, guid: 8d5f00296b32f4c1bba0d7565b55989e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -11471,7 +11473,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5320855874918341427, guid: 424497b61eeb5688882ac59aebe12f35, type: 3}
       propertyPath: m_Name
-      value: Book 2
+      value: Book
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
