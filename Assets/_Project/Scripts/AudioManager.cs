@@ -21,10 +21,10 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    private void Start()
+    private void Update()
     {
         // Apply saved volumes on startup
-        
+        SetSFXVolume("SFXVolume",0.75f);
         
     }
 
@@ -39,8 +39,9 @@ public class AudioManager : MonoBehaviour
     // sfx control
     public void SetSFXVolume(float volume)
     {
-        
+        PlayerPrefs.SetFloat("SFXVolume", volume);
     }
+    public float GetSFXVolume() => PlayerPrefs.GetFloat("SFXVolume", 0.75f);
 
     
 
