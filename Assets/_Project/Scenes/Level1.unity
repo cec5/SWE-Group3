@@ -9455,11 +9455,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -9483,7 +9483,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
+  m_VertexColorAlwaysGammaSpace: 1
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 1409841077
@@ -9501,7 +9501,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1034848286}
+  - {fileID: 2010995529}
+  - {fileID: 320962530}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -9659,7 +9660,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2010995529
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9672,11 +9673,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1034848286}
+  m_Father: {fileID: 1964620930}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -529, y: 338}
+  m_AnchoredPosition: {x: -491.99997, y: 247}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2010995530
@@ -10456,6 +10457,37 @@ MonoBehaviour:
   - {fileID: 8300000, guid: f0f794c67e9233d468a38d165590d253, type: 3}
   - {fileID: 8300000, guid: 1a7741daba5446e46a40f8074aae75dc, type: 3}
   - {fileID: 8300000, guid: 0bc66974c41ff8c4fa15f46d21ad3548, type: 3}
+--- !u!114 &2133159363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2133159353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 783a15fb98d57bc47ad54cd52ee8c083, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xInput: 0
+  walkSpeed: 4
+  runSpeed: 6
+  crouchSpeed: 3
+  extraJumpsValue: 1
+  jumpForce: 12
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 0
+  groundCheckOffset: -0.92
+  isGrounded: 0
+  ceilingCheckOffset: 0.23
+  crouchSizeMultiplier: 0.72
+  PlayerLivesText: {fileID: 0}
+  maxLives: 3
+  hearts:
+  - {fileID: 302119753}
+  - {fileID: 605388438}
+  - {fileID: 1786343364}
 --- !u!1001 &7015032411292481517
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10559,7 +10591,6 @@ SceneRoots:
   - {fileID: 1403141791}
   - {fileID: 509970561}
   - {fileID: 933048149}
-  - {fileID: 1166270713}
   - {fileID: 849869703}
   - {fileID: 747897302}
   - {fileID: 9808059}
