@@ -5,10 +5,44 @@ public class AudioManager : MonoBehaviour
 {
     public static AudioManager instance;
 
+    [Header("Audio Sources")]
+    [SerializeField] private AudioSource musicSource;
+
     private void Awake()
     {
-        instance = this;
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
+
+    private void Start()
+    {
+        // Apply saved volumes on startup
+        
+        
+    }
+
+    // Music control
+    public void SetMusicVolume(float volume)
+    {
+        
+    }
+
+    
+
+    // sfx control
+    public void SetSFXVolume(float volume)
+    {
+        
+    }
+
+    
 
     public void PlaySFX(AudioClip audioClip, float volume = 1f)
     {
@@ -19,7 +53,7 @@ public class AudioManager : MonoBehaviour
     {
         AudioSource audioSource = gameObject.AddComponent<AudioSource>();
         audioSource.clip = audioClip;
-        audioSource.volume = volume;
+        audioSource.volume = volume * GetSFXVolume(); 
         audioSource.Play();
 
         yield return new WaitForSeconds(audioSource.clip.length * 2);
