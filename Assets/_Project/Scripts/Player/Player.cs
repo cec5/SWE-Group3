@@ -47,6 +47,7 @@ public class Player : MonoBehaviour
     [SerializeField] private TextMeshProUGUI PlayerLivesText;
     [SerializeField] private int maxLives = 3;
     private int currentLives;
+    public GameObject[] hearts;
     private Vector2 currentRespawnPosition;
     public static event Action OnPlayerRespawn; // Not needed now, but can be used in the future to reset lava or other variables on respawn
 
@@ -187,6 +188,11 @@ public class Player : MonoBehaviour
     }
     private void LoseLife()
     {
+        // Remove heart
+        if (currentLives - 1 > 0 && currentLives - 1 < hearts.Length)
+        {
+            Destroy(hearts[currentLives - 1].gameObject);
+        }
         currentLives--;
         if (currentLives > 0)
         {
