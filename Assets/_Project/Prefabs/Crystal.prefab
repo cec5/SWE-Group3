@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2180042751146148049}
   - component: {fileID: 5553303886474958646}
   - component: {fileID: 6773313472469490193}
+  - component: {fileID: 2533546630929392562}
   m_Layer: 0
   m_Name: Crystal
   m_TagString: Untagged
@@ -151,3 +152,15 @@ MonoBehaviour:
   message: This geometric crystal must have come loose during an earthquake. There
     are many different types of crystal, but you can't tell what kind this one is.
     You can examine it more closely later.
+--- !u!114 &2533546630929392562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6590986871636596618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbc92a73a1be6eea39756e7feba60233, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

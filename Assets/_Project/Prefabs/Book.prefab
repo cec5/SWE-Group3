@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 6312481741892120112}
   - component: {fileID: 1963729739809656853}
   - component: {fileID: 5522097353923393027}
+  - component: {fileID: -7744480604792371802}
   m_Layer: 0
-  m_Name: Book 2
+  m_Name: Book
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -150,3 +151,15 @@ MonoBehaviour:
   title: Dusty Book
   message: It looks like an old journal, but you have no time for reading now! The
     lava is rising rapidly, so best to look at it later.
+--- !u!114 &-7744480604792371802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5320855874918341427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbc92a73a1be6eea39756e7feba60233, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

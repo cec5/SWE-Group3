@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1993380870628612243}
   - component: {fileID: 5207477389064562805}
   - component: {fileID: 1956202235975361638}
-  - component: {fileID: 6152957327938828558}
+  - component: {fileID: 4413263465461001236}
   m_Layer: 0
   m_Name: Obsidian
   m_TagString: Untagged
@@ -152,7 +152,7 @@ MonoBehaviour:
   message: A piece of volcanic glass. This hard, igneous rock is produced from rapidly
     cooling lava. It has historically been used by early humans to create sharp tools
     like arrowheads and knives.
---- !u!114 &6152957327938828558
+--- !u!114 &4413263465461001236
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -161,6 +161,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5919853942850496294}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 560706b2c86669e0b8ef7aec4094fca2, type: 3}
+  m_Script: {fileID: 11500000, guid: bbc92a73a1be6eea39756e7feba60233, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinClip: {fileID: 0}

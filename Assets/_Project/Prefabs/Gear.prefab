@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1145353453515102917}
   - component: {fileID: 1025726583276642541}
   - component: {fileID: 4594803155670613743}
+  - component: {fileID: -1326298572859866865}
   m_Layer: 0
   m_Name: Gear
   m_TagString: Untagged
@@ -150,3 +151,15 @@ MonoBehaviour:
   title: Gear
   message: This gear must have been left behind after some old mining machinery was
     dismantled.
+--- !u!114 &-1326298572859866865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2854554025193930290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbc92a73a1be6eea39756e7feba60233, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
