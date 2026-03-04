@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Hazard
   - Bag
+  - Music
   layers:
   - Default
   - TransparentFX
@@ -63,6 +64,9 @@ TagManager:
     locked: 0
   - name: UI
     uniqueID: 1409841077
+    locked: 0
+  - name: Music
+    uniqueID: 4276443439
     locked: 0
   m_RenderingLayers:
   - Default
