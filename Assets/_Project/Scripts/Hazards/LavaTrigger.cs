@@ -8,7 +8,6 @@ public class LavaTrigger : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            Debug.Log("Lava triggered");
             if (lavaObject != null)
             {
                 lavaObject.StartRising();
