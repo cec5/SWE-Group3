@@ -118,7 +118,7 @@ TextureImporter:
       name: character_idle-_0
       rect:
         serializedVersion: 2
-        x: 18
+        x: 138
         y: 12
         width: 11
         height: 21
@@ -140,7 +140,7 @@ TextureImporter:
       name: character_idle-_1
       rect:
         serializedVersion: 2
-        x: 66
+        x: 186
         y: 12
         width: 11
         height: 21
@@ -162,7 +162,7 @@ TextureImporter:
       name: character_idle-_2
       rect:
         serializedVersion: 2
-        x: 114
+        x: 234
         y: 12
         width: 11
         height: 20
@@ -184,7 +184,7 @@ TextureImporter:
       name: character_idle-_3
       rect:
         serializedVersion: 2
-        x: 162
+        x: 282
         y: 12
         width: 11
         height: 20
@@ -206,7 +206,7 @@ TextureImporter:
       name: character_idle-_4
       rect:
         serializedVersion: 2
-        x: 210
+        x: 330
         y: 12
         width: 11
         height: 20
@@ -228,7 +228,7 @@ TextureImporter:
       name: character_idle-_5
       rect:
         serializedVersion: 2
-        x: 258
+        x: 378
         y: 12
         width: 11
         height: 20
