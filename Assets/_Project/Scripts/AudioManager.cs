@@ -24,17 +24,27 @@ public class AudioManager : MonoBehaviour
     private void Update()
     {
         // Apply saved volumes on startup
-        SetSFXVolume("SFXVolume",0.75f);
+        SetMusicVolume(PlayerPrefs.GetFloat("MusicVolume",0.75f));
+        SetSFXVolume(PlayerPrefs.GetFloat("SFXVolume",0.75f));
         
     }
 
     // Music control
     public void SetMusicVolume(float volume)
     {
-        
+        if (musicSource == null)
+        {
+            musicSource = GameObject.FindWithTag("Music")?.GetComponent<AudioSource>();
+        }
+
+        if (musicSource != null)
+        {
+            musicSource.volume = volume;
+        }
+        PlayerPrefs.SetFloat("MusicVolume", volume);
     }
 
-    
+    public float GetMusicVolume() => PlayerPrefs.GetFloat("MusicVolume", 0.75f);
 
     // sfx control
     public void SetSFXVolume(float volume)
