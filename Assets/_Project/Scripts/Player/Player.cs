@@ -185,7 +185,7 @@ public class Player : MonoBehaviour
         {
             LoseLife();
         }
-        else if (collision.CompareTag("Diamond")) // player reaches the end
+        else if (collision.CompareTag("End")) // player reaches the end
         {
             GameWon();
         }
@@ -228,6 +228,6 @@ public class Player : MonoBehaviour
 
     private void GameWon()
     {
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene(4);
     }
 }
