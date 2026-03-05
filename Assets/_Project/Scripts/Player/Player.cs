@@ -185,11 +185,13 @@ public class Player : MonoBehaviour
         {
             LoseLife();
         }
-        else if (collision.CompareTag("End")) // player reaches the end
-        {
-            GameWon();
-        }
     }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("End")) GameWon(); // player reaches the end
+    }
+
     private void LoseLife()
     {
         // Remove heart
