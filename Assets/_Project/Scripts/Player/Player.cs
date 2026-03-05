@@ -185,6 +185,10 @@ public class Player : MonoBehaviour
         {
             LoseLife();
         }
+        else if (collision.CompareTag("Diamond")) // player reaches the end
+        {
+            GameWon();
+        }
     }
     private void LoseLife()
     {
@@ -220,5 +224,10 @@ public class Player : MonoBehaviour
     void UpdateLivesUI()
     {
         PlayerLivesText.text = currentLives.ToString();
+    }
+
+    private void GameWon()
+    {
+        SceneManager.LoadScene(5);
     }
 }
